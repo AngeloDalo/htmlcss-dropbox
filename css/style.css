@@ -27,6 +27,10 @@ a{
 
 /*css header*/
 /*css nav*/
+.nav{
+    position: fixed;
+}
+
 nav .contenitore{
     width: 100%;
     height: 4em;
@@ -35,12 +39,11 @@ nav .contenitore{
 [class*="contenitore-"]{
     width: 50%;
     float: left;
-    height: 100%;
     line-height: 4em;
 }
 
 .logo-contenitore-sx {
-    width: 25%;
+    width: 15%;
 }
 
 .logo-contenitore-sx img{
@@ -48,32 +51,43 @@ nav .contenitore{
     vertical-align: middle;
 }
 
-.link-contenitore-sx{
-    width: 75%;
+[class*="link-contenitore-"] {
+    width: 85%;
 }
 
-.link-contenitore-sx li{
+[class*="link-contenitore-"] li{
     vertical-align: middle;
     display: inline-block;
     margin-right: 3em;
 }
 
-.link-contenitore-sx a{
+[class*="link-contenitore-"] a{
     color: black;
-    height: 100%;
     display: block;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
-ul:first-child{
-    margin-left: 2em;
+.link-contenitore-sx ul:first-child{
+    margin-left: 7em;
 }
 
-.link-contenitore-sx a:hover{
+.link-contenitore-dx ul:first-child{
+    margin-left: 10em;
+}
+
+[class*="link-contenitore-"] a:hover{
     border-bottom: 2px solid black;
 }
 
-
+a.btn {
+    display: inline-block;
+    background-color: #0061ff;
+    padding: 1px 14px;
+    line-height: 2em;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+}
 /*fine css nav*/
 /*fine css header*/
 
