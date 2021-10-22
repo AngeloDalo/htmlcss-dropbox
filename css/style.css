@@ -200,6 +200,7 @@ main {
 
 .tipi-piani .colonna {
     margin-right: calc(10% / 3);
+    height: 800px;
     border: 1px solid grey;
     width: 30%;
 }
