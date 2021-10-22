@@ -213,8 +213,66 @@ main {
     border-bottom: 1px solid grey;
 }
 
+/*css caratteristiche elementi dentro la colonna dei piani*/
 .nome-piano span {
     width: 100%;
 }
+
+.descrizione-piano {
+    font-size: 0.8em;
+    margin-left: 1em;
+}
+
+.descrizione-piano h2 {
+    margin-top: 2em;
+}
+
+.descrizione-piano .prezzo-piano {
+    margin-top: 1em;
+    font-weight: 900;
+}
+
+.descrizione-piano .durata-piano {
+    color: grey;
+    margin-bottom: 2em;
+}
+
+.descrizione-piano .grandezza-piano {
+    margin-top: 1em;
+}
+
+.descrizione-piano .funzioni-piano {
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+
+.descrizione-piano ul i {
+    color: var(--blue-drop);
+}
+
+.descrizione-piano a {
+    width: 90%;
+    font-size: 1em;
+    margin-bottom: 1.5em;
+}
+
+.descrizione-piano .ora-piano {
+    margin-bottom: 5em;
+}
+
+#colore {
+    color: var(--blue-drop);
+    font-weight: bold;
+}
+
+.descrizione-piano h3 {
+    margin-bottom: 1em;
+}
+
+.descrizione-piano ul li{
+    margin-bottom: 1em;
+}
+/*fine css colonne piani*/
+
 /*fine css main*/
 
