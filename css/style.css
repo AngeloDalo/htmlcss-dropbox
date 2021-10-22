@@ -23,6 +23,10 @@ a{
     display: table;
     clear: both;
 }
+
+.left {
+    float: left;
+}
 /*fine elementi in comune*/
 
 /*css header*/
@@ -76,7 +80,7 @@ nav .contenitore{
 }
 
 .link-contenitore-dx ul:first-child{
-    margin-left: 9.5em;
+    margin-left: 9em;
 }
 
 [class*="link-contenitore-"] a:hover{
@@ -97,10 +101,45 @@ a.btn {
 /*inzio css jumbo*/
 .jumbo {
     width: 100%;
-    height: 450px;
+    height: 520px;
     background-color: #b4d0e7;
     margin-top: 5em;
 }
+
+.jumbo-titolo {
+    width: 80%;
+    padding-top: 2em;
+    margin: auto;
+}
+
+.jumbo-titolo h1 {
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+[class*="jumbo-informazioni"] {
+    width: 80%;
+    margin: auto;
+}
+
+[class*="jumbo-informazioni-"] {
+    margin-top: 3em;
+}
+
+.jumbo-informazioni-sx {
+    width: 30%;
+}
+
+.jumbo-informazioni-dx {
+    width: 70%;
+}
+
+.photo-jumbo-informazioni-dx img {
+    width: 100%;
+    margin-top: -3em;
+}
+
 /*fine css jumbo*/
 /*fine css header*/
 
