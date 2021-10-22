@@ -8,3 +8,72 @@ html {
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
 }
+
+/*elementi in comune*/
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+/*fine elementi in comune*/
+
+/*css header*/
+/*css nav*/
+nav .contenitore{
+    width: 100%;
+    height: 4em;
+}
+
+[class*="contenitore-"]{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 4em;
+}
+
+.logo-contenitore-sx {
+    width: 25%;
+}
+
+.logo-contenitore-sx img{
+    margin-left: 1.2em;
+    vertical-align: middle;
+}
+
+.link-contenitore-sx{
+    width: 75%;
+}
+
+.link-contenitore-sx li{
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 3em;
+}
+
+.link-contenitore-sx a{
+    color: black;
+    height: 100%;
+    display: block;
+    font-size: 0.8em;
+}
+
+ul:first-child{
+    margin-left: 2em;
+}
+
+.link-contenitore-sx a:hover{
+    border-bottom: 2px solid black;
+}
+
+
+/*fine css nav*/
+/*fine css header*/
+
