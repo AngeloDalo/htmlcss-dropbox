@@ -175,14 +175,14 @@ main {
     width: 80%;
     margin: auto;
     height: 100px;
-    margin-top: 10em;
+    margin-top: 8em;
 }
 
 .piano-dropbox h1 {
     font-size: 2.3em;
     font-weight: 900;
     font-weight: bold;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.3em;
 }
 
 .tipo-fatturazione span {
@@ -191,6 +191,30 @@ main {
 
 .tipo-fatturazione span:first-of-type i {
     color: var(--blue-drop);
+}
+
+.tipi-piani {
+    margin-top: 2em;
+    width: 100%;
+}
+
+.tipi-piani .colonna {
+    margin-right: calc(10% / 3);
+    border: 1px solid grey;
+    width: 30%;
+}
+
+.tipi-piani div:last-of-type {
+    margin-right: 0;
+}
+
+.nome-piano {
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.nome-piano span {
+    width: 100%;
 }
 /*fine css main*/
 
