@@ -6,6 +6,7 @@
 
 html {
     font-size: 100%;
+    font-weight: 400;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -26,6 +27,16 @@ a{
 
 .left {
     float: left;
+}
+
+a.btn {
+    display: inline-block;
+    background-color: #0061ff;
+    padding: 1px 14px;
+    line-height: 2em;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
 }
 /*fine elementi in comune*/
 
@@ -86,16 +97,6 @@ nav .contenitore{
 [class*="link-contenitore-"] a:hover{
     border-bottom: 2px solid black;
 }
-
-a.btn {
-    display: inline-block;
-    background-color: #0061ff;
-    padding: 1px 14px;
-    line-height: 2em;
-    text-decoration: none;
-    color: white;
-    font-size: 0.8em;
-}
 /*fine css nav*/
 
 /*inzio css jumbo*/
@@ -131,6 +132,7 @@ a.btn {
     width: 30%;
 }
 
+
 .jumbo-informazioni-dx {
     width: 70%;
 }
@@ -140,6 +142,26 @@ a.btn {
     margin-top: -3em;
 }
 
+.jumbo-informazioni-sx p {
+    font-size: 0.8em;
+}
+
+.jumbo-informazioni-sx .btn {
+    margin-top: 1.5em;
+}
+
+.jumbo-informazioni-sx span {
+    font-size: 0.7em;
+}
+
+.collegamento {
+    margin-top: 2em;
+}
+
+.collegamento a {
+    font-size: 2em;
+    color: black;
+}
 /*fine css jumbo*/
 /*fine css header*/
 
