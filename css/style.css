@@ -308,6 +308,44 @@ main .team {
 /*fine css team*/
 
 /*inizio css partner*/
+.partner {
+    margin-top: 8em;
+    width: 100%;
+}
+
+.immagine-partner {
+    width: 50%;
+}
+
+.immagine-partner img {
+    width: 100%;
+}
+
+.partner .informazioni-partner {
+    width: 50%;
+    margin-top: 2em;
+}
+
+.partner .informazioni-partner div {
+    width: 100%;
+    margin-left: 2em;
+}
+
+.partner .informazioni-partner div h2 {
+    margin-bottom: 1em;
+}
+
+.partner .informazioni-partner div p {
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+.partner .informazioni-partner div a {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
 
 /*fine css partner*/
 /*fine css main*/
