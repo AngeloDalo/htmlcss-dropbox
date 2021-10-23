@@ -43,6 +43,14 @@ a.btn {
     color: white;
     font-size: 0.8em;
 }
+
+.width-100 {
+    width: 100%;
+}
+
+.width-50 {
+    width: 50%;
+}
 /*fine elementi in comune*/
 
 /*css header*/
@@ -50,13 +58,11 @@ a.btn {
 nav{
     position: fixed;
     background-color: white;
-    width: 100%;
     height: 4em;
     top: 0;
 }
 
 nav .contenitore{
-    width: 100%;
     height: 4em;
 }
 
@@ -106,7 +112,6 @@ nav .contenitore{
 
 /*inzio css jumbo*/
 .jumbo {
-    width: 100%;
     height: 520px;
     background-color: var(--celeste-drop);
     margin-top: 5em;
@@ -143,7 +148,6 @@ nav .contenitore{
 }
 
 .photo-jumbo-informazioni-dx img {
-    width: 100%;
     margin-top: -3em;
 }
 
@@ -174,7 +178,6 @@ nav .contenitore{
 main {
     width: 80%;
     margin: auto;
-    height: 100px;
     margin-top: 8em;
 }
 
@@ -195,7 +198,6 @@ main {
 
 .tipi-piani {
     margin-top: 2em;
-    width: 100%;
 }
 
 .colonna .nome-piano {
@@ -215,10 +217,6 @@ main {
 }
 
 /*css caratteristiche elementi dentro la colonna dei piani*/
-.nome-piano span {
-    width: 100%;
-}
-
 .descrizione-piano {
     font-size: 0.8em;
     margin-left: 1em;
@@ -261,7 +259,7 @@ main {
     margin-bottom: 5em;
 }
 
-#colore {
+.colore-piano{
     color: var(--blue-drop);
     font-weight: bold;
 }
@@ -277,7 +275,6 @@ main {
 
 /*inizio css team*/
 main .team {
-    width: 100%;
     margin-top: 2em;
     border: 1px solid grey;
 }
@@ -310,24 +307,13 @@ main .team {
 /*inizio css partner*/
 .partner {
     margin-top: 8em;
-    width: 100%;
-}
-
-.immagine-partner {
-    width: 50%;
-}
-
-.immagine-partner img {
-    width: 100%;
 }
 
 .partner .informazioni-partner {
-    width: 50%;
     margin-top: 2em;
 }
 
 .partner .informazioni-partner div {
-    width: 100%;
     margin-left: 2em;
 }
 
@@ -348,16 +334,7 @@ main .team {
 /*fine css partner*/
 
 /*inizio css operazioni*/
-
-.operazioni {
-    width: 100%;
-}
-
-.blocco-operazioni {
-    width: 100%;
-}
-
-.operazioni h1 {
+.operazioni .titolo {
     margin-top: 3em;
     margin-bottom: 1em;
     font-size: 2em;
@@ -376,10 +353,6 @@ main .team {
     width: 90%;
 }
 
-.operazione-dettaglio .foto-operazione-dettaglio img {
-    width: 100%;
-}
-
 .informazioni-operazione-dettaglio p {
     margin-top: 1em;
 }
@@ -389,4 +362,115 @@ main .team {
 }
 /*fine css operazioni*/
 /*fine css main*/
+
+/*inizio css clienti*/
+.clienti {
+    margin-top: 3em;
+    width: 100%;
+}
+
+.clienti-intestazione {
+    margin-left: 10%;
+}
+
+.clienti-intestazione h2 {
+    margin-right: 70%;
+}
+
+.clienti-intestazione h2 {
+    margin-bottom: 1em;
+}
+
+.clienti-intestazione .scritta-clienti {
+    color: var(--blue-drop);
+    text-decoration: underline;
+    font-size: 0.8em;
+    font-weight: 900;
+}
+
+.clienti-corpo {
+    margin-top: 2em;
+}
+
+.clienti-corpo-sx {
+    width: 25%;
+    float: left;
+}
+.clienti-corpo-centro {
+    width: 50%;
+    float: left;
+}
+.clienti-corpo-dx {
+    width: 25%;
+    float:left;
+}
+
+.foto-clienti {
+    text-align: center;
+    line-height: 150px;
+    width: 50%;
+    height: 150px;
+}
+
+.foto-clienti img {
+    vertical-align: middle;
+    width: 50%;
+    filter: invert(1);
+}
+
+.clienti-corpo-sx .prima {
+    background-color: #a2d39b;
+}
+
+.clienti-corpo-sx .seconda {
+    background-color: #61082b;
+}
+
+.clienti-corpo-sx .terza {
+    background-color:#0093ce;
+}
+
+.clienti-corpo-sx .quarta {
+    background-color: #ff1c1c;
+}
+
+.clienti-corpo-dx .prima {
+    background-color: #d5001f;
+}
+
+.clienti-corpo-dx .seconda {
+    background-color: #b4d0e7;
+}
+
+.clienti-corpo-dx .terza {
+    background-color:#0d2481;
+}
+
+.clienti-corpo-dx .quarta {
+    background-color: #ffd830;
+}
+
+.clienti-corpo-centro img {
+    margin-top: 3em;
+    width: 20%;
+    margin-left: 3em;
+}
+
+.clienti-corpo-centro p {
+    margin-left: 3em;
+    margin-top: 1em;
+    font-size: 0.8em;
+    margin-bottom: 1em;
+    margin-right: 10em;
+}
+
+.clienti-corpo-centro span {
+    margin-left: 3em;
+    font-size: 0.8em;
+}
+/*fine css clienti*/
+
+/*inizio footer*/
+
+/*fine footer*/
 
