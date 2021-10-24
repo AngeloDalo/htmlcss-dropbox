@@ -496,6 +496,55 @@ main .team {
 /*fine css clienti*/
 
 /*inizio footer*/
+.domande-frequenti {
+    width: 80%;
+    margin: auto;
+}
+
+.domande-frequenti h1 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.domande-frequenti .domanda {
+    margin-bottom: 4em;
+    font-weight: 900;
+}
+
+.domanda {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-right: 5em;
+}
+
+.domanda i {
+    margin-left: 15em;
+}
+
+.domanda .risposta {
+    font-weight: normal;
+    margin-top: 2em;
+    margin-right: 2em;
+    display: none;
+}
+
+.fa-chevron-up {
+    display: none;
+}
+
+.domanda:hover .risposta {
+    display: block;
+}
+
+.domanda:hover .fa-chevron-down {
+    display: none;
+}
+
+.domanda:hover .fa-chevron-up {
+    display: inline-block;
+}
+
 
 /*fine footer*/
-
