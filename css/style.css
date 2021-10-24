@@ -399,6 +399,7 @@ main .team {
 .clienti-corpo-centro {
     width: 50%;
     float: left;
+    background-color: white;
 }
 .clienti-corpo-dx {
     width: 25%;
@@ -467,6 +468,30 @@ main .team {
 .clienti-corpo-centro span {
     margin-left: 3em;
     font-size: 0.8em;
+}
+
+.footer-aside {
+    background-color: var(--celeste-drop);
+    padding: 10% 10%;
+}
+
+.footer-aside h1 {
+    font-size: 2em;
+    width: 40%;
+    display: inline-block;
+    color: #61082b;
+}
+
+.footer-aside a {
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin-top: 1em;
+    margin-left: 20em;
+    display: block;
+    width: 15em;
+    line-height: 2em;
+    height: 2em;
 }
 /*fine css clienti*/
 
