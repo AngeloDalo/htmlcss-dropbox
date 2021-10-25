@@ -94,6 +94,44 @@ nav .contenitore{
     line-height: 4em;
 }
 
+.sotto-menu {
+    position: relative;
+}
+
+.supporto-hover {
+    display: none;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    line-height: 1em;
+}
+
+.link-contenitore-dx ul li:first-child:hover .supporto-hover {
+    display: block;
+}
+
+.supporto-hover ul li {
+    display: block;
+    height: 2em;
+}
+
+.supporto-hover ul a{
+    display: block;
+    height: 3em;
+    line-height: 3em;
+    width: 195px;
+    margin-left: -142px;
+    margin-top: 0.5em;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.supporto-hover ul a:hover {
+    border-bottom: none;
+    background-color: lightgray;
+}
+
 .logo-contenitore-sx {
     width: 15%;
 }
@@ -618,6 +656,10 @@ p .fa-chevron-up {
     margin-left: 7%;
     color: grey;
     font-size: 0.7em;
+}
+
+.lingua-sito .fa-chevron-up {
+    font-size: 0.5em;
 }
 /*fine css collegamenti utili*/
 /*fine footer*/
