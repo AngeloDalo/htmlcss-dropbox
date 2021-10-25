@@ -264,14 +264,23 @@ main {
 }
 
 .tipi-piani .colonna {
-    height: 900px;
+    max-height: 1900px;
     border: 1px solid grey;
     width: 30%;
 }
 
+.tipi-piani .colonna:nth-child(1) {
+    padding-bottom: 5em;
+}
+
 .tipi-piani .colonna:nth-child(2) {
+    padding-bottom: 3em;
     margin-left: 2.9em;
     margin-right: 3em;
+}
+
+.tipi-piani .colonna:nth-child(3) {
+    padding-bottom: 3em;
 }
 
 /*css caratteristiche elementi dentro la colonna dei piani*/
@@ -449,6 +458,7 @@ main .team {
 }
 
 .clienti-corpo {
+    max-height: 300px;
     margin-top: 2em;
 }
 
@@ -503,6 +513,11 @@ main .team {
 
 .clienti-corpo-dx .quarta {
     background-color: #ffd830;
+}
+
+.clienti-corpo-centro{
+    max-height: 300px;
+    overflow-y: scroll;
 }
 
 .clienti-corpo-centro img {
