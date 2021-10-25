@@ -44,6 +44,13 @@ a.btn {
     font-size: 0.8em;
 }
 
+a.btn:hover {
+    -webkit-box-shadow: inset 1px 1px 21px 4px #B5B5B5;
+    -moz-box-shadow: inset 1px 1px 21px 4px #B5B5B5;
+    -o-box-shadow: inset 1px 1px 21px 4px #B5B5B5;
+    box-shadow: inset 1px 1px 21px 4px #B5B5B5;
+}
+
 .width-100 {
     width: 100%;
 }
@@ -114,7 +121,7 @@ nav .contenitore{
 .jumbo {
     height: 520px;
     background-color: var(--celeste-drop);
-    margin-top: 5em;
+    margin-top: 4em;
 }
 
 .jumbo-titolo {
@@ -536,6 +543,7 @@ main .team {
 
 .domanda:hover .risposta {
     display: block;
+    color: gray;
 }
 
 .domanda:hover .fa-chevron-down {
@@ -544,6 +552,10 @@ main .team {
 
 .domanda:hover .fa-chevron-up {
     display: inline-block;
+}
+
+.domanda .risposta a {
+    text-decoration: underline;
 }
 
 
