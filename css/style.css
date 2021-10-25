@@ -55,8 +55,20 @@ a.btn:hover {
     width: 100%;
 }
 
+.width-80 {
+    width: 80%;
+}
+
 .width-50 {
     width: 50%;
+}
+
+.color-white {
+    color: white;
+}
+
+.bg-color-white {
+    background-color: white;
 }
 /*fine elementi in comune*/
 
@@ -64,7 +76,6 @@ a.btn:hover {
 /*css nav*/
 nav{
     position: fixed;
-    background-color: white;
     top: 0;
 }
 
@@ -124,7 +135,6 @@ nav .contenitore{
 }
 
 .jumbo-titolo {
-    width: 80%;
     padding-top: 2em;
     margin: auto;
 }
@@ -182,7 +192,6 @@ nav .contenitore{
 
 /*inizio css main*/
 main {
-    width: 80%;
     margin: auto;
     margin-top: 8em;
 }
@@ -400,16 +409,10 @@ main .team {
 
 .clienti-corpo-sx {
     width: 25%;
-    float: left;
 }
-.clienti-corpo-centro {
-    width: 50%;
-    float: left;
-    background-color: white;
-}
+
 .clienti-corpo-dx {
     width: 25%;
-    float:left;
 }
 
 .foto-clienti {
@@ -504,7 +507,6 @@ main .team {
 /*inizio footer*/
 /*css domande frequenti*/
 .domande-frequenti {
-    width: 80%;
     margin: auto;
 }
 
@@ -561,14 +563,12 @@ p .fa-chevron-up {
 
 /*inizio css collegamenti utili*/
 .collegamenti-utili {
-    width: 100%;
     padding-bottom: 1em;
     background-color: #000000;
     margin-top: 8em;
 }
 
 .collegamenti-utili-link {
-    color: white;
     margin-left: 7%;
 }
 
