@@ -502,6 +502,7 @@ main .team {
 /*fine css clienti*/
 
 /*inizio footer*/
+/*css domande frequenti*/
 .domande-frequenti {
     width: 80%;
     margin: auto;
@@ -536,7 +537,7 @@ main .team {
     display: none;
 }
 
-.fa-chevron-up {
+p .fa-chevron-up {
     display: none;
 }
 
@@ -556,6 +557,58 @@ main .team {
 .domanda .risposta a {
     text-decoration: underline;
 }
+/*fine css domande frequenti*/
 
+/*inizio css collegamenti utili*/
+.collegamenti-utili {
+    width: 100%;
+    padding-bottom: 1em;
+    background-color: #000000;
+    margin-top: 8em;
+}
 
+.collegamenti-utili-link {
+    color: white;
+    margin-left: 7%;
+}
+
+.collegamenti-utili-link a {
+    color: white;
+}
+
+.collegamenti-utili-link a:hover {
+    text-decoration: underline;
+}
+
+[class*="collegamenti-utili-link-"] {
+    margin-top: 5em;
+    margin-right: 5em;
+}
+
+.collegamenti-utili-link .left span {
+    font-weight: 900;
+}
+
+.collegamenti-utili-link .left ul {
+    font-size: 0.8em;
+    margin-top: 1.5em;
+}
+
+.collegamenti-utili-link .left li {
+    margin-bottom: 0.7em;
+}
+
+.linea-fine {
+    margin-left: 7%;
+    margin-top: 7em;
+    width: 5em;
+}
+
+.lingua-sito {
+    margin-top: 3em;
+    margin-left: 7%;
+    color: grey;
+    font-size: 0.7em;
+}
+/*fine css collegamenti utili*/
 /*fine footer*/
