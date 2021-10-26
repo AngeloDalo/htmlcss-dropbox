@@ -481,6 +481,10 @@ main .team {
     text-decoration: underline;
 }
 
+.titolo-operazione {
+    font-weight: 800;
+}
+
 /*fine css operazioni*/
 /*fine css main*/
 
@@ -494,12 +498,14 @@ main .team {
     font-size: 1em;
 }
 
-.clienti-intestazione h2 {
+.clienti-intestazione h2 span {
     margin-right: 70%;
 }
 
 .clienti-intestazione h2 {
+    font-size: 2em;
     margin-bottom: 1em;
+    font-weight: 900;
 }
 
 .clienti-intestazione .scritta-clienti {
@@ -630,16 +636,19 @@ main .team {
 }
 
 .domande-frequenti .domanda {
-    margin-bottom: 4em;
+    margin-bottom: 3em;
     font-weight: 900;
 }
 
 .domanda {
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 3em;
     border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
     margin-right: 0em;
+}
+
+.domanda:last-of-type {
+    padding-bottom: 3em;
+    border-bottom:  1px solid grey;
 }
 
 .domanda i {
