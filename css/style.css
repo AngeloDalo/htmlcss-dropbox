@@ -289,6 +289,19 @@ main {
     margin-left: 1em;
 }
 
+.icona-offerta {
+    width: 5%;
+}
+
+.specifiche-generali {
+    margin-bottom: 5em;
+}
+
+.dettaglio-offerta {
+    margin-left: 0.8em;
+    width: 90%;
+}
+
 .descrizione-piano h2 {
     margin-top: 2em;
 }
