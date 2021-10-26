@@ -250,8 +250,18 @@ main {
     margin-right: 2.5em;
 }
 
-.tipo-fatturazione span:first-of-type i {
-    color: var(--blue-drop);
+input[type='radio']{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 100%;
+    vertical-align: sub;
+}
+
+input[type='radio']:checked {
+    border: 2px solid var(--blue-drop);
 }
 
 .tipi-piani {
