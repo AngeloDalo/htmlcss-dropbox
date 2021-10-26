@@ -43,6 +43,7 @@ a.btn {
     text-decoration: none;
     color: white;
     font-size: 0.8em;
+    text-align: center;
 }
 
 a.btn:hover {
@@ -162,7 +163,7 @@ nav .contenitore{
 }
 
 .link-contenitore-sx ul:first-child{
-    margin-left: 7em;
+    margin-left: 6em;
 }
 
 .link-contenitore-dx ul:first-child{
@@ -183,7 +184,8 @@ nav .contenitore{
 
 .jumbo-titolo {
     padding-top: 2em;
-    margin: auto;
+    margin-left: 10%;
+    margin-right: 5%;
 }
 
 .jumbo-titolo h1 {
@@ -265,7 +267,7 @@ input[type='radio']{
 }
 
 input[type='radio']:checked {
-    border: 2px solid var(--blue-drop);
+    border: 5px solid var(--blue-drop);
 }
 
 .tipi-piani {
@@ -284,17 +286,17 @@ input[type='radio']:checked {
 }
 
 .tipi-piani .colonna:nth-child(1) {
-    padding-bottom: 5em;
+    padding-bottom: 8em;
 }
 
 .tipi-piani .colonna:nth-child(2) {
-    padding-bottom: 3em;
+    padding-bottom: 6em;
     margin-left: 2.9em;
     margin-right: 3em;
 }
 
 .tipi-piani .colonna:nth-child(3) {
-    padding-bottom: 3em;
+    padding-bottom: 6em;
 }
 
 /*css caratteristiche elementi dentro la colonna dei piani*/
@@ -305,6 +307,10 @@ input[type='radio']:checked {
 
 .icona-offerta {
     width: 5%;
+}
+
+.descrizione-piano h2 {
+    font-size: 2em;
 }
 
 .specifiche-generali {
@@ -350,7 +356,11 @@ input[type='radio']:checked {
 }
 
 .descrizione-piano .ora-piano {
-    margin-bottom: 5em;
+    margin-bottom: 3em;
+}
+.separazione {
+    width: 20%;
+    margin-bottom: 2em;
 }
 
 .colore-piano{
@@ -380,8 +390,20 @@ main .team {
 .contatti-team div h2 {
     margin-top: 1em;
     display: inline-block;
-    margin-right: 60%;
-    margin-bottom: 1em;
+    margin-right: 50%;
+    margin-bottom: 0.5em;
+    font-weight: 900;
+}
+
+.contatti-team h3 {
+    font-weight: 900;
+    font-size: 1em;
+}
+
+.contatti-team div a {
+    height: 2.5em;
+    line-height: 2.2em;
+    width: 20em;
 }
 
 .contatti-team .contenuto-contatti-team {
@@ -412,6 +434,7 @@ main .team {
 }
 
 .partner .informazioni-partner div h2 {
+    font-weight: 900;
     margin-bottom: 1em;
 }
 
@@ -433,6 +456,7 @@ main .team {
     margin-top: 3em;
     margin-bottom: 1em;
     font-size: 2em;
+    font-weight: 900;
 }
 
 .operazione-dettaglio {
@@ -456,6 +480,7 @@ main .team {
 .informazioni-operazione-dettaglio p span {
     text-decoration: underline;
 }
+
 /*fine css operazioni*/
 /*fine css main*/
 
