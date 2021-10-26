@@ -34,6 +34,7 @@ a{
     float: left;
 }
 
+/*link-bottoni*/
 a.btn {
     display: inline-block;
     background-color: var(--blue-drop);
@@ -50,7 +51,9 @@ a.btn:hover {
     -o-box-shadow: inset 1px 1px 21px 4px #B5B5B5;
     box-shadow: inset 1px 1px 21px 4px #B5B5B5;
 }
+/*/link bottoni*/
 
+/*grandezza fisse*/
 .width-100 {
     width: 100%;
 }
@@ -66,6 +69,7 @@ a.btn:hover {
 .width-50 {
     width: 50%;
 }
+/*/grandezza fisse*/
 
 .color-white {
     color: white;
