@@ -325,7 +325,7 @@ main {
     margin-bottom: 5em;
 }
 
-.descrizione-piano ul i {
+.descrizione-piano ul .fa-check {
     color: var(--blue-drop);
 }
 
